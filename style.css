@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+    text-decoration: underline;
+}
+#entete {
+	text-align : right;
+
+}
+#connexion {    
+    
+    align-self: center;
+    background-color: #4683ea;
+    height: 30px;
+    width: 65px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+}
+
+
+
+#principal {
+	min-height: 100%;
+  	padding: 10px;
+  	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	
+}
+#partager {
+	
+
+}
+#barrerecherche {
+    
+  	height: 30px;
+    width: 80%;
+    align-self: center;    
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-radius: 30px;
+}
+
+
+
+#basdepage {
+    position: absolute;
+    bottom: 0;  
+	 
+     
+}
+#bashaut {    
+ 	height: 40px;
+	width: 100%;
+	background: #F2F2F2;
+	text-indent: 20px;
+	border-top: 1px solid #E4E4E4;
+	border-bottom: 1px solid #E4E4E4;
+	display: flex;
+	align-items: center;
+	font-weight: 400;
+	color:#6E6E6E;
+}
+
+#basbas {    
+ 	height: 40px;
+	width: 100%;
+	background: #F2F2F2;
+	text-indent: 20px;
+	border-top: 1px solid #E4E4E4;
+	border-bottom: 1px solid #E4E4E4;
+	display: flex;
+	align-items: center;
+	font-weight: 400;
+	color:#6E6E6E;
+}
